@@ -7,7 +7,7 @@ export default function Nav() {
             <nav className="  w-screen h-15">
                 <ul className='flex ml-80  gap-10  text-black bold pt-4 '>
                     <img className='relative left-[-25%] w-25 ' src={logo} alt="" />
-                    <li><a href="">Home</a></li>
+                    <li ><a className='text-blue-400' href="">Home</a></li>
                     <li><a href="">About us</a></li>
                     <li><a href="">our Services</a></li>
                     <li><a href="">Pricing</a></li>
