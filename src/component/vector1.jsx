@@ -3,7 +3,7 @@ import vector1 from "../assets/vector1.png"
 
 const Vector = () => {
     return (
-        <img src={vector1} alt="vector1" className='mt-9' />
+        <img src={vector1} alt="vector1" className='w-full h-auto mt-9' />
     )
 }
 

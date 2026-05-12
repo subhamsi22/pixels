@@ -7,31 +7,37 @@ import Buttons from "./buttons"
 
 export default function banner() {
     return (
-        <div className='w-screen h-155  overflow-hidden bg-[#f7f3f3]'>
-            <div >
-
-                <h1 className=' capitalize  font-roboto text-5xl font-bold  relative left-20 top-20'>simplifying <br />
+        <div className='w-full min-h-screen overflow-hidden bg-[#f7f3f3] flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-20 py-10 md:py-20'>
+            {/* Left Content */}
+            <div className='w-full md:w-1/2 flex flex-col justify-center'>
+                <h1 className='capitalize font-roboto text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4'>
+                    simplifying <br />
                     <span className='text-blue-700'>compliance </span>
                     for <br />
-                    <img src={underline_Vector} alt="underline_Vector" className='relative w-70 top-0' />
-
+                    <span className='inline-block'>
+                        <img src={underline_Vector} alt="underline_Vector" className='w-40 md:w-60 lg:w-70' />
+                    </span>
                     research analysts
                 </h1>
 
+                <div className='mt-6 md:mt-8 w-full md:w-3/4'>
+                    <Text />
+                    
+                    <div className='flex flex-col sm:flex-row gap-3 mt-6'>
+                        <button className='flex-1 sm:flex-none flex items-center justify-center bg-blue-700 hover:bg-blue-800 cursor-pointer transition-all duration-300 p-2 rounded-2xl text-white font-bold'>
+                            Get Started
+                        </button>
+                        
+                        <button className='flex-1 sm:flex-none flex items-center justify-center border-2 border-blue-700 hover:bg-blue-700 hover:text-white cursor-pointer transition-all duration-300 p-2 rounded-2xl text-blue-700 font-bold'>
+                            Book A Consultation
+                        </button>
+                    </div>
+                </div>
             </div>
-            <img src={Banner_image} alt="Banner_image" className='relative  top-[-15%]  right-[-50%] w-[600px] ' />
-            <div className='capitalize w-[40%] mt-[-28%] ml-[6%]'>
-                <Text />
-                <span className='flex w-[40%] hover:bg-blue-800 cursor-pointer transition-all duration-300 justify-center items-center bg-blue-700 p-2 rounded-2xl text-white font-bold mt-2'>
-                    <Buttons name={"Get Started"} />
 
-
-                </span>
-                <span className=' relative mt-[-7%] left-[45%] flex w-[40%] hover:bg-blue-800 hover:text-white cursor-pointer transition-all duration-300 justify-center items-center border-2 border-blue-700 p-2 rounded-2xl text-blue-700 font-bold mt-2 h-10'>
-                    <Buttons name={"Book A Consultion"} />
-
-
-                </span>
+            {/* Right Image */}
+            <div className='w-full md:w-1/2 flex justify-center mt-8 md:mt-0'>
+                <img src={Banner_image} alt="Banner_image" className='w-80 sm:w-96 md:w-[400px] lg:w-[500px] h-auto' />
             </div>
         </div>
     )

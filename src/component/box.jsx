@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Box(props) {
     return (
-        <div className=' h-[132px] w-[487px]  '>
-            <img src={props.img} alt="" className='h-[30px] w-[32px] mt-8 ml-3' />
-            <h1 className='flex w-130 ml-16 mt-[-6%] font-bold text-2xl' >{props.name}</h1>
-            <br />
-            <p className='  capitalize font-roboto font-medium text-base  ml-16 mt-[-4%]' >{props.content}</p>
-
+        <div className='flex gap-4 md:gap-6'>
+            <img src={props.img} alt="" className='h-8 md:h-10 w-8 md:w-10 flex-shrink-0 mt-1' />
+            <div className='flex-1'>
+                <h1 className='font-bold text-lg md:text-xl mb-2'>{props.name}</h1>
+                <p className='capitalize font-roboto font-medium text-sm md:text-base text-gray-700'>{props.content}</p>
+            </div>
         </div>
     )
 }
