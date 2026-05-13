@@ -14,20 +14,24 @@ export default function banner() {
                     simplifying <br />
                     <span className='text-blue-700'>compliance </span>
                     for <br />
-                    <span className='inline-block'>
-                        <img src={underline_Vector} alt="underline_Vector" className='w-40 md:w-60 lg:w-70' />
+                    <span>
+                        <img src={underline_Vector} alt="underline_Vector" className='w-40 md:w-60 lg:w-70 inline-block' />
                     </span>
-                    research analysts
                 </h1>
+                <p className=' mt-[-34px] font-roboto text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4'>
+                    research analysts
+
+                </p>
+
 
                 <div className='mt-6 md:mt-8 w-full md:w-3/4'>
                     <Text />
-                    
+
                     <div className='flex flex-col sm:flex-row gap-3 mt-6'>
                         <button className='flex-1 sm:flex-none flex items-center justify-center bg-blue-700 hover:bg-blue-800 cursor-pointer transition-all duration-300 p-2 rounded-2xl text-white font-bold'>
                             Get Started
                         </button>
-                        
+
                         <button className='flex-1 sm:flex-none flex items-center justify-center border-2 border-blue-700 hover:bg-blue-700 hover:text-white cursor-pointer transition-all duration-300 p-2 rounded-2xl text-blue-700 font-bold'>
                             Book A Consultation
                         </button>

@@ -1,0 +1,45 @@
+#fm {
+    position: absolute;
+    right: 45%;
+    top: 30%;
+}
+
+#l {
+    margin-top: 25%;
+}
+
+#op {
+    margin-top: -20%;
+    position: relative;
+    left: 108%;
+}
+
+#h1 {
+
+
+    width: 85%;
+}
+
+#mg {
+    position: relative;
+    right: 173%;
+    width: 130%;
+
+}
+
+@media (max-width: 375px) {
+    #p1 {
+        position: relative;
+        left: 1%;
+        margin-top: 5%;
+    }
+
+    #fm {
+        position: absolute;
+        right: 45%;
+        top: 30%;
+    }
+
+
+
+}
