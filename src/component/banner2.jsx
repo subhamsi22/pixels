@@ -7,6 +7,7 @@ import Regulatory_Clarity from "../assets/Regulatory_Clarity.png"
 import Hassle_Free_Filings from "../assets/Hassle_Free_Filings.png"
 import Risk_Protection from "../assets/Risk_Protection.png"
 import '../App.css'
+import vector2 from '../assets/vector2.png'
 
 
 export default function banner2() {
@@ -21,8 +22,11 @@ export default function banner2() {
                         In today's regulatory environment, even a small oversight can lead to penalties, reputational risks, and loss of client trust. We help Research Analysts and firms navigate complex compliance requirements so they can focus on delivering high-quality research without worry.
                     </p>
                 </div>
+<span id="mg" >
+    <img src={vector2} alt="vector2" />
+</span>
                 <div className='w-full lg:w-1/2 relative'>
-                    <div id="fm" className='mb-8 md:mb-12'>
+                    <div id="fm" className=' mb-8 md:mb-12'>
                         <Banner3 />
                     </div>
                     <div id="l" className='flex flex-col gap-4 md:gap-6'>

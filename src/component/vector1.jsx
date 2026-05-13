@@ -1,9 +1,9 @@
 import React from 'react'
 import vector1 from "../assets/vector1.png"
-
+import "../App.css"
 const Vector = () => {
     return (
-        <img src={vector1} alt="vector1" className='mt-9' />
+        <img id="mg" src={vector1} alt="vector1" className='mt-9' />
     )
 }
 

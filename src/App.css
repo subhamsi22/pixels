@@ -1,6 +1,7 @@
 #fm {
     position: absolute;
-    right: 45%;
+    right: 140%;
+    width: 60%;
     top: 30%;
 }
 
@@ -14,18 +15,20 @@
     left: 108%;
 }
 
+#mg {
+    position: relative;
+    left: -17%;
+    width: 30px;
+    margin-top: 5%;
+}
+
 #h1 {
 
 
     width: 85%;
 }
 
-#mg {
-    position: relative;
-    right: 173%;
-    width: 130%;
 
-}
 
 @media (max-width: 375px) {
     #p1 {
@@ -35,11 +38,19 @@
     }
 
     #fm {
-        position: absolute;
-        right: 45%;
-        top: 30%;
+        position: relative;
+        right: 0;
+        top: -49px;
+        width: 100%;
     }
 
+    #mg {
+        position: relative;
+        left: 91%;
+        width: 30px;
+        margin-top: -8%;
+
+    }
 
 
 }
