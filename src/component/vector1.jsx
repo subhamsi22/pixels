@@ -1,5 +1,5 @@
 import React from 'react'
-import vector1 from "../assets/vector1.png"
+import vector1 from "../Assets/Vector1.png"
 import "../App.css"
 const Vector = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import underline_Vector from "../assets/underline_Vector.png"
-import Vector1 from "../assets/Vector1.png"
-import Banner_image from "../assets/Banner_image.png"
+import underline_Vector from "../Assets/underline_Vector.png"
+import Vector1 from "../Assets/Vector1.png"
+import Banner_image from "../Assets/Banner_Image.png"
 import Text from "./text"
 import Buttons from "./buttons"
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../Assets/Logo.png'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { AiOutlineHome, AiOutlineInfoCircle, AiOutlineTool, AiOutlineTag, AiOutlineQuestionCircle, AiOutlinePhone } from 'react-icons/ai'
 

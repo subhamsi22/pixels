@@ -1,13 +1,13 @@
 import React from 'react'
-import Vector2 from '../assets/Vector2.png'
+import Vector2 from '../Assets/Vector2.png'
 
 import Banner3 from './banner3'
 import Box from './box'
-import Regulatory_Clarity from "../assets/Regulatory_Clarity.png"
-import Hassle_Free_Filings from "../assets/Hassle_Free_Filings.png"
-import Risk_Protection from "../assets/Risk_Protection.png"
+import Regulatory_Clarity from "../Assets/Regulatory_Clarity.png"
+import Hassle_Free_Filings from "../Assets/Hassle_Free_Filings.png"
+import Risk_Protection from "../Assets/Risk_Protection.png"
 import '../App.css'
-import vector2 from '../assets/vector2.png'
+import vector2 from '../Assets/Vector2.png'
 
 
 export default function banner2() {
